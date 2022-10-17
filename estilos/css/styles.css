@@ -532,4 +532,14 @@ margin-top: 2rem;
         width: 200px;
         height: 200px;
     }
+
+    .paquetes__nac{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .paquetes__int{
+        display: flex;
+        flex-direction: column;
+    }
 }
