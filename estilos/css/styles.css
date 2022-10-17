@@ -337,6 +337,10 @@ margin-top: 2rem;
     border-radius:150px
 }
 
+.destinos__img:hover{
+    border:0.2rem solid black;
+}
+
 .destinos__nombre{
     margin: 1rem 0rem;
     font-size: 1rem;
