@@ -297,6 +297,57 @@ margin-top: 2rem;
     border: solid 0.2rem #0eb1c7;
 }
 
+
+/*DESTINOS*/
+
+.destinos__titulo{
+    padding: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    background-color: #a2e5ff;
+}
+
+.destinos__sub{
+    padding: 3rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #eceecb;
+}
+
+.destinos__nac{
+    display: grid;
+    background-color: #eceecb;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.destinos__cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5rem 0rem;
+}
+
+.destinos__img{
+    width: 220px;
+    height: 220px;
+    border:0.1rem solid #0eb1c7;
+    border-radius:150px
+}
+
+.destinos__nombre{
+    margin: 1rem 0rem;
+    font-size: 1rem;
+}
+
+.destinos__int{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: #eceecb;
+}
+
 /*mobile*/
 
 @media screen and (max-width:320px) {
