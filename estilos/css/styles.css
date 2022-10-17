@@ -301,7 +301,7 @@ margin-top: 2rem;
 /*DESTINOS*/
 
 .destinos__titulo{
-    padding: 2rem;
+    padding: 1.5rem;
     text-align: center;
     font-size: 2rem;
     background-color: #a2e5ff;
@@ -352,6 +352,69 @@ margin-top: 2rem;
     background-color: #eceecb;
 }
 
+
+/*PAQUETES*/
+
+.paquetes__titulo{
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color:#a2e5ff
+}
+
+.paquetes__sub{
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color:#eceecb;
+}
+
+.paquetes__nac{
+    display: grid;
+    background-color: #eceecb;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.paquetes__cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c3eafa;
+    margin: 2rem 1rem;
+    border: 0.2rem solid #0eb1c7;
+}
+
+.paquetes__cards:hover{
+    border: 0.2rem solid black;
+}
+
+.paquetes__img{
+    margin-top: 1rem;
+    width: 250px;
+    height: 300px;
+}
+
+.paquetes__nombre{
+    padding: 1rem;
+}
+
+.paquetes__fecha{
+   padding: 0.5rem;
+   font-weight: bold;
+}
+
+.paquetes__precio{
+    padding: 0.5rem;
+}
+
+.paquetes__int{
+    display: grid;
+    background-color: #eceecb;
+    grid-template-columns: repeat(5, 1fr);
+}
 /*mobile*/
 
 @media screen and (max-width:320px) {
