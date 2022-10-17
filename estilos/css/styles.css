@@ -455,4 +455,18 @@ margin-top: 2rem;
         margin: 2rem 0rem 3rem 3rem;
     } 
 
+    .destinos__nac{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .destinos__int{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .destinos__img{
+        width: 200px;
+        height: 200px;
+    }
 }
