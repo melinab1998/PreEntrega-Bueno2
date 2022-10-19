@@ -433,7 +433,52 @@ margin: 3rem 0rem;
 
 /*FINANCIACIÓN*/
 
+.financiacion{
+    display: flex;
+    flex-direction: column;
+    background-color: #eceecb;
+}
 
+.fina{
+    justify-content: center;
+    text-align: center;
+}
+
+.fina__titulo{
+    padding: 1.5rem;
+    font-size: 2rem;
+    color: #eceecb;
+    background-image: url(../../img/destinos3.jpg);
+}
+
+.fina__sub{
+    font-weight: lighter;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.opcion1{
+    padding: 1rem;
+    margin: 1rem 4rem;
+}
+
+.opcion1__titulo{
+    margin: 1rem 0rem;
+}
+
+.opcion2__img{
+    max-width: 500px;
+    padding: 1rem;
+    margin-left: 27rem;
+}
+
+.opcion3__img{
+    height: 4rem;
+    width: 8rem;
+    margin-top:2rem;
+    margin-right: 0.5rem;
+}
 
 /*mobile*/
 
