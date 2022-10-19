@@ -309,7 +309,7 @@ margin: 3rem 0rem;
 .destinos__titulo{
     padding: 1.5rem;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #eceecb;
     background-image: url(../../img/destinos3.jpg);
 }
@@ -366,7 +366,7 @@ margin: 3rem 0rem;
 /*PAQUETES*/
 
 .paquetes__titulo{
-    padding: 2rem;
+    padding: 1.5rem;
     text-align: center;
     font-size: 1.5rem;
     color: #eceecb;
@@ -446,7 +446,7 @@ margin: 3rem 0rem;
 
 .fina__titulo{
     padding: 1.5rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #eceecb;
     background-image: url(../../img/destinos3.jpg);
 }
@@ -479,6 +479,91 @@ margin: 3rem 0rem;
     margin-top:2rem;
     margin-right: 0.5rem;
     border-radius: 5%;
+}
+
+/*CONTACTO*/
+
+.cont__titulo{
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #eceecb;
+    background-image: url(../../img/destinos3.jpg);
+}
+
+.cont{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #eceecb;
+}
+
+.cont__1{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    margin-top: 2rem;
+    margin-left: 10rem;
+
+}
+
+.cont__1--titulo{
+    font-size: 1.5rem;
+    margin: 2rem 2rem;
+    color: #028090;
+}
+
+.cont__1--text{
+    margin: 1rem 2rem;
+}
+
+.cont__2--titulo{
+    font-size: 2rem;
+}
+
+.cont__2{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin-top: 6rem;
+    margin-left: 6rem;
+}
+
+.form-tit{
+    font-weight: bold;
+    margin: 1rem 0rem;
+}
+
+.form-inp{
+    width: 300px;
+    height: 30px;
+}
+
+.form-inp1{
+    width: 300px;
+    height: 100px;
+}
+
+.form-inp2{
+    width: 300px;
+    height: 30px;
+    margin: 0.5rem 0rem;
+}
+
+.conta{
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+.cont__3{
+    display: flex;
+    justify-content: center;
+    background-color: #eceecb;
+}
+
+.cont__maps{
+    margin: 3rem 5rem;
+    width:1000px;
+    height:300px;
 }
 
 /*mobile*/
