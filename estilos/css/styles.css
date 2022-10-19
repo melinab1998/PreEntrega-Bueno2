@@ -680,16 +680,26 @@ margin: 3rem 0rem;
     .paquetes__nac{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
+    }
+
+    .paquetes__cards{
+        max-width: 250px;
+        max-height: 400px;
+        margin-top: 0rem;
+    }
+
+    .paquetes__img{
+        margin: 0rem 0rem;
     }
 
     .paquetes__int{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
     }
 
-    
+
     .fina__titulo{
         font-size: 1.5rem;
     }
@@ -719,5 +729,58 @@ margin: 3rem 0rem;
         height: 3rem;
         width: 5rem;
         margin: 1.5rem 0rem 0rem 0.4rem;
+    }
+    
+    .cont{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .cont__1{
+    margin: 0rem 0rem;
+    padding: 0rem;
+    }
+    
+    .cont__1--titulo{
+        font-size: 1.5rem;
+        margin: 2rem 2rem;
+        color: #028090;
+    }
+    
+    .cont__2--titulo{
+        font-size: 1.5rem;
+        margin: 1rem 0rem;
+    }
+    
+    .cont__2{
+        padding: 2rem;
+        margin-top: 0rem;
+        margin-left: 0rem;
+    }
+    
+    
+    .form-inp{
+        width: 200px;
+        height: 20px;
+    }
+    
+    .form-inp1{
+        width: 200px;
+        height: 100px;
+    }
+    
+    .form-inp2{
+        width: 200px;
+        height: 20px;
+    }
+    
+    .conta{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .cont__maps{
+        width: 250px;
+        height: 150px;
     }
 }
