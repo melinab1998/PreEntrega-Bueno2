@@ -325,7 +325,7 @@ margin: 3rem 0rem;
 .destinos__nac{
     display: grid;
     background-color: #eceecb;
-    grid-template-columns: repeat(5, 350px);
+    grid-template-columns: repeat(5, 275px);
     grid-template-rows: repeat(2, 1fr);
     justify-content: center;
 }
@@ -356,7 +356,7 @@ margin: 3rem 0rem;
 
 .destinos__int{
     display: grid;
-    grid-template-columns: repeat(5, 350px);
+    grid-template-columns: repeat(5, 275px);
     background-color: #eceecb;
     justify-content: center;
 }
@@ -384,7 +384,7 @@ margin: 3rem 0rem;
 .paquetes__nac{
     display: grid;
     background-color: #eceecb;
-    grid-template-columns: repeat(5, 320px);
+    grid-template-columns: repeat(5, 300px);
     grid-template-rows: repeat(2, 1fr);
     justify-content: center;
 }
@@ -406,8 +406,8 @@ margin: 3rem 0rem;
 
 .paquetes__img{
     margin-top: 1rem;
-    width: 250px;
-    height: 300px;
+    width: 240px;
+    height: 280px;
 }
 
 .paquetes__nombre{
@@ -426,7 +426,7 @@ margin: 3rem 0rem;
 .paquetes__int{
     display: grid;
     background-color: #eceecb;
-    grid-template-columns: repeat(5, 320px);
+    grid-template-columns: repeat(5, 300px);
     justify-content: center;
 }
 
