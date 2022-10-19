@@ -258,43 +258,49 @@ background-color:#F0F3BD;
 
 /*NOSOTROS*/
 
+.encabezado{
+    height: 250px;
+}
+
 .encabezado__img{
-    height: 320px;
-    width: 1583px;
+    object-fit: cover;
+    width:100%;
+    height:100%;   
 }
 
 .info{
-    background-color:#eceecb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eceecb;
 }   
 
 .info__titulo{
-text-align: center;
-font-size: 3rem;
-font-weight: bold;
-margin-top: 2rem;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    font-size: 2.5rem;
 }
 
 .info__sub{
-    display: inline-block;
-    font-size: 1.5rem;
-    font-weight: lighter;
+    justify-content: center;
     text-align: center;
-    width: 1583px;
+    font-weight: lighter;
     padding: 1rem;
+    font-size: 1.5rem;
 }
 
 .info__parrafo{
-    display: inline-block;
     text-align: justify;
-    margin: 1rem 3rem 1rem 3rem;
+    padding: 1rem;
+    margin: 1rem 2rem;
 }
 
 .info__video{
-    display: inline-block;
-    width: 850px;
-    height: 450px;
-    margin: 4rem 0rem 5rem 23rem;
-    border: solid 0.2rem #0eb1c7;
+width: 700px;
+height: 400px;
+border: 0.2rem solid #028090;
+margin: 3rem 0rem;
 }
 
 
@@ -304,7 +310,8 @@ margin-top: 2rem;
     padding: 1.5rem;
     text-align: center;
     font-size: 2rem;
-    background-color: #a2e5ff;
+    color: #eceecb;
+    background-image: url(../../img/destinos3.jpg);
 }
 
 .destinos__sub{
@@ -318,8 +325,9 @@ margin-top: 2rem;
 .destinos__nac{
     display: grid;
     background-color: #eceecb;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 350px);
     grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
 }
 
 .destinos__cards{
@@ -348,9 +356,11 @@ margin-top: 2rem;
 
 .destinos__int{
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 350px);
     background-color: #eceecb;
+    justify-content: center;
 }
+
 
 
 /*PAQUETES*/
@@ -359,7 +369,8 @@ margin-top: 2rem;
     padding: 2rem;
     text-align: center;
     font-size: 1.5rem;
-    background-color:#a2e5ff
+    color: #eceecb;
+    background-image: url(../../img/destinos3.jpg);
 }
 
 .paquetes__sub{
@@ -373,8 +384,9 @@ margin-top: 2rem;
 .paquetes__nac{
     display: grid;
     background-color: #eceecb;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 320px);
     grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
 }
 
 .paquetes__cards{
@@ -382,13 +394,14 @@ margin-top: 2rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #c3eafa;
+    background-color: white;
+    max-width: 280px;
     margin: 2rem 1rem;
-    border: 0.2rem solid #0eb1c7;
+    border: 0.1rem solid #0eb1c7;
 }
 
 .paquetes__cards:hover{
-    border: 0.2rem solid black;
+    border: 0.1rem solid black;
 }
 
 .paquetes__img{
@@ -402,8 +415,8 @@ margin-top: 2rem;
 }
 
 .paquetes__fecha{
-   padding: 0.5rem;
-   font-weight: bold;
+    padding: 0.5rem;
+    font-weight: bold;
 }
 
 .paquetes__precio{
@@ -413,8 +426,15 @@ margin-top: 2rem;
 .paquetes__int{
     display: grid;
     background-color: #eceecb;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 320px);
+    justify-content: center;
 }
+
+
+/*FINANCIACIÓN*/
+
+
+
 /*mobile*/
 
 @media screen and (max-width:320px) {
@@ -494,9 +514,8 @@ margin-top: 2rem;
         padding:1.5rem;
     }
 
-    .encabezado__img{
-        height: 250px;
-        width: 320px;
+    .encabezado{
+        height: 200px;
     }
     
     .info__titulo{
@@ -515,7 +534,6 @@ margin-top: 2rem;
     .info__video{
         width: 225px;
         height: 175px;
-        margin: 2rem 0rem 3rem 3rem;
     } 
 
     .destinos__nac{
@@ -528,18 +546,15 @@ margin-top: 2rem;
         flex-direction: column;
     }
     
-    .destinos__img{
-        width: 200px;
-        height: 200px;
-    }
-
     .paquetes__nac{
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
 
     .paquetes__int{
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
 }
