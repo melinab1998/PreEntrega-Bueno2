@@ -478,6 +478,7 @@ margin: 3rem 0rem;
     width: 8rem;
     margin-top:2rem;
     margin-right: 0.5rem;
+    border-radius: 5%;
 }
 
 /*mobile*/
@@ -601,5 +602,37 @@ margin: 3rem 0rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+
+    
+    .fina__titulo{
+        font-size: 1.5rem;
+    }
+    
+    .fina__sub{
+        font-size: 1rem;
+    }
+    
+    .opcion1{
+        padding: 0.5rem;
+        margin: 1rem 1rem;
+        text-align: justify;
+    }
+    
+    .opcion1__titulo{
+        margin: 1rem 0rem;
+        text-align: center;
+        font-size: 1rem;
+    }
+    
+    .opcion2__img{
+        max-width: 300px;
+        margin-left: -1rem;
+    }
+    
+    .opcion3__img{
+        height: 3rem;
+        width: 5rem;
+        margin: 1.5rem 0rem 0rem 0.4rem;
     }
 }
